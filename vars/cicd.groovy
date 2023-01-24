@@ -1,3 +1,3 @@
 def gitDown(repo) {
-  git '${repo}'
+  git "${repo}"
 }
