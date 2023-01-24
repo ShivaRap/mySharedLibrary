@@ -1,7 +1,7 @@
 def gitDown(repo) {
   git "${repo}"
 }
-def buildArt{
+def mavenBuild{
    sh "mvn package"
 }
 def newDeploy(workspace, ip, contextPath){
