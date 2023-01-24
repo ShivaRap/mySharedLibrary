@@ -4,5 +4,3 @@ def gitDown(repo) {
 def mavenBuild{
    sh '''mvn package'''
 }
-
- 
